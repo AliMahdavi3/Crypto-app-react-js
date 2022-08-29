@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "myfont";
+  src: url(../assets/font/ArchivoNarrow-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: "myfont";
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #59595a;
+  box-shadow: 0 0 12px #18191b;
+  border-radius: 8px;
+  margin: 2rem 1rem;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+.coin-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b3b3d;
+  box-shadow: 0 0 12px #18191b;
+  border-radius: 8px;
+  margin: 2rem 1rem;
+  padding: 0.7rem 1rem;
+}
+
+.coin-row:hover {
+  transform: scale(1.04);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+img {
+  height: 40px;
+  margin-right: 8px;
+  width: auto;
+}
+
+.img-symbol {
+  display: flex;
+  align-items: center;
+}
+
+.coin-name {
+  margin-left: -4rem;
+}
+
+@media screen and (max-width: 720px) {
+  .hide-mobile {
+    display: none;
+  }
+}
